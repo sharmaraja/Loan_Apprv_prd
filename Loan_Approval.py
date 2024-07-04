@@ -3,14 +3,14 @@ import pickle
 import pandas as pd
 import numpy as np
 
-# Load the preprocessor and model from the file
-model = pickle.load(open('Loan_appr_Pre_Proc_Cat_Boost.pkl','rb'))
-# with open('Loan_appr_Pre_Proc_Cat_Boost.pkl', 'rb') as file:
-#     model = pickle.load(file)
-    
-
 # Streamlit app
 st.title("Loan Approval Prediction")
+
+# Load the preprocessor and model from the file
+# model = pickle.load(open('Loan_appr_Pre_Proc_Cat_Boost.pkl','rb'))
+with open('Loan_appr_Pre_Proc_Cat_Boost.pkl', 'rb') as file:
+    model = pickle.load(file)
+
 
 # Input fields for the new data
 person_age = st.number_input('Person Age', min_value=18, max_value=100, value=30)
