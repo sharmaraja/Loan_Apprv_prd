@@ -1,9 +1,10 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import numpy as np
 
 # Load the preprocessor and model from the file
-model = pickle.load(open("Loan_appr_Pre_Proc_Cat_Boost.pkl",'rb'))
+model = pickle.load(open('Loan_appr_Pre_Proc_Cat_Boost.pkl','rb'))
 # with open('Loan_appr_Pre_Proc_Cat_Boost.pkl', 'rb') as file:
 #     model = pickle.load(file)
     
