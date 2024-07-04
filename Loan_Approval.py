@@ -3,8 +3,10 @@ import pickle
 import pandas as pd
 
 # Load the preprocessor and model from the file
-with open('Loan_appr_Pre_Proc_Cat_Boost.pkl', 'rb') as file:
-    model = pickle.load(file)
+model = pickle.load(open("Loan_appr_Pre_Proc_Cat_Boost.pkl",'rb'))
+# with open('Loan_appr_Pre_Proc_Cat_Boost.pkl', 'rb') as file:
+#     model = pickle.load(file)
+    
 
 # Streamlit app
 st.title("Loan Approval Prediction")
