@@ -1,0 +1,8 @@
+streamlit
+scikit-learn
+pandas
+numpy
+pickle-mixin  # For saving and loading models
+matplotlib  # For plotting (if needed)
+seaborn  # For advanced plotting (if needed)
+catboost 
