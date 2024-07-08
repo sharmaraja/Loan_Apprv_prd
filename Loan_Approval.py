@@ -21,6 +21,20 @@ body {
 }
 </style>
 '''
+
+/* Custom styles for title and sidebar */
+.title {
+    color: #333333;  /* Dark gray text color */
+}
+
+.sidebar {
+    background-color: #ffffff;  /* White sidebar background */
+    border-right: 1px solid #cccccc;  /* Light gray sidebar border */
+    padding: 20px;
+}
+</style>
+'''
+
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Sidebar navigation
