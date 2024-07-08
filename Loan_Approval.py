@@ -19,8 +19,6 @@ body {
     background-position: top center;  /* Place the image at the top center */
     padding-top: 50px;  /* Add padding to top to make space for the image */
 }
-</style>
-'''
 
 /* Custom styles for title and sidebar */
 .title {
