@@ -8,12 +8,16 @@ import seaborn as sns
 # Streamlit app
 st.set_page_config(page_title="Loan Approval Prediction", layout="wide")
 
-# Custom CSS for background image
+# Custom CSS for background image and color
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://c8.alamy.com/comp/WWW9FD/loan-approved-stamp-showing-credit-agreement-ok-WWW9FD.jpg");
-background-size: cover;
+    background-color: #f0f0f0;  /* Light gray background color */
+    background-image: url("loan-approved.jpg");  /* Image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;  /* Place the image at the top center */
+    padding-top: 50px;  /* Add padding to top to make space for the image */
 }
 </style>
 '''
