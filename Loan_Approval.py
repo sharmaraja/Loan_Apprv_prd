@@ -13,7 +13,7 @@ page_bg_img = '''
 <style>
 body {
     background-color: #f0f0f0;  /* Light gray background color */
-    background-image: url("loan-approved.jpg");  /* Image URL */
+    background-image: url("Image.webp");  /* Image URL */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;  /* Place the image at the top center */
